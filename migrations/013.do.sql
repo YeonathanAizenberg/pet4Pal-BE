@@ -1,0 +1,2 @@
+ALTER TABLE pets DROP COLUMN picture;
+ALTER TABLE pets ADD COLUMN picture VARCHAR(500);

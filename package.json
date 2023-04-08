@@ -1,0 +1,43 @@
+{
+  "name": "06-fullstack-project-final-assignment-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=local nodemon server.js",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "deploy":"heroku container:push web && heroku container:release web",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israeltechchallenge/pet-adoption-backend-YeonathanAizenberg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israeltechchallenge/pet-adoption-backend-YeonathanAizenberg/issues"
+  },
+  "homepage": "https://github.com/israeltechchallenge/pet-adoption-backend-YeonathanAizenberg#readme",
+  "dependencies": {
+    "@nearform/sql": "^1.5.1",
+    "ajv": "^8.1.0",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.25.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fluent-json-schema": "^2.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "pino-http": "^5.5.0",
+    "pino-pretty": "^4.7.1",
+    "postgrator": "^4.1.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
