@@ -1,0 +1,2 @@
+ALTER TABLE pets DROP COLUMN hypoallergenic;
+ALTER TABLE pets ADD COLUMN hypoallergenic TINYINT NOT NULL;
