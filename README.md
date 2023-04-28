@@ -16,4 +16,4 @@ To submit to GitHub:
  Server Deployed: --- Deploy it and put here the server ---
 
  TODO - Deploy current version on a free server
- TODO - Re-factor the code to apply nest.js
+ TODO - Re-factor the code to apply TypeScript

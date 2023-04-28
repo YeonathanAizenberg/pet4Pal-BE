@@ -1,28 +1,28 @@
 {
-  "name": "06-fullstack-project-final-assignment-backend",
+  "name": "pet4pal-back",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=local nodemon server.js",
     "start": "cross-env NODE_ENV=production node server.js",
-    "deploy":"heroku container:push web && heroku container:release web",
+    "deploy": "heroku container:push web && heroku container:release web",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/israeltechchallenge/pet-adoption-backend-YeonathanAizenberg.git"
+    "url": "git+https://github.com/YeonathanAizenberg/pet4Pal-BE.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/israeltechchallenge/pet-adoption-backend-YeonathanAizenberg/issues"
+    "url": "https://github.com/YeonathanAizenberg/pet4Pal-BE/issues"
   },
-  "homepage": "https://github.com/israeltechchallenge/pet-adoption-backend-YeonathanAizenberg#readme",
+  "homepage": "https://github.com/YeonathanAizenberg/pet4Pal-BE#readme",
   "dependencies": {
     "@nearform/sql": "^1.5.1",
     "ajv": "^8.1.0",
-    "bcrypt": "^5.0.1",
+    "bcrypt": "^5.1.0",
     "cloudinary": "^1.25.1",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
